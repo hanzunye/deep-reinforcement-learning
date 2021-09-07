@@ -1,7 +1,7 @@
 [//]: # (Image References)
 
 [image1]: https://user-images.githubusercontent.com/10624937/42135619-d90f2f28-7d12-11e8-8823-82b970a54d7e.gif "Trained Agent"
-[image1]: https://user-images.githubusercontent.com/10624937/42135619-d90f2f28-7d12-11e8-8823-82b970a54d7e.gif "Trained Agent"
+[image2]: https://github.com/hanzunye/deep-reinforcement-learning/blob/master/p1_navigation/plot.png "Plot"
 
 # Project 1: Navigation
 
@@ -40,4 +40,4 @@ LR = 5e-4                **learning rate**
 ### Result
 - Environment solved in 772 episodes!	Average Score: 13.03
 
-![Trained Agent][image1]
+![PLot][image2]

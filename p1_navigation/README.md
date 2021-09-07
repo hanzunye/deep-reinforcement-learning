@@ -39,5 +39,6 @@ LR = 5e-4                **learning rate**
 
 ### Result
 - Environment solved in 772 episodes!	Average Score: 13.03
+- Model save as checkpoint.pth
 
 ![PLot][image2]

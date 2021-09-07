@@ -25,12 +25,18 @@ The task is episodic, and in order to solve the environment, your agent must get
 - class ReplayBuffer
 - class Agent
 - hyperparameter :
-1. BUFFER_SIZE = int(1e5)   **replay buffer size**
-2. BATCH_SIZE = 64          **minibatch size**
-3. GAMMA = 0.99             **discount factor**
-4. TAU = 1e-3               **for soft update of target parameters**
-5. LR = 5e-4                **learning rate**
+
+BUFFER_SIZE = int(1e5)   **replay buffer size**
+
+BATCH_SIZE = 64          **minibatch size**
+
+GAMMA = 0.99             **discount factor**
+
+TAU = 1e-3               **for soft update of target parameters**
+
+LR = 5e-4                **learning rate**
 
 ### Result
 - Environment solved in 772 episodes!	Average Score: 13.03
+
 ![Trained Agent][image1]

@@ -32,4 +32,31 @@ Note that your project submission need only solve one of the two versions of the
 
 The task is episodic, and in order to solve the environment,  your agent must get an average score of +30 over 100 consecutive episodes.
 
+### Algorithm: DDPG
 
+- Hyperparameter
+
+`BUFFER_SIZE = int(1e6)`:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;replay buffer size
+
+`BATCH_SIZE = 128`:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;minibatch size
+
+`GAMMA = 0.99`:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;discount factor
+
+`TAU = 5e-3`:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;for soft update of target parameters
+
+`LR_ACTOR = 5e-4`:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;learning rate of the actor
+
+`LR_CRITIC = 5e-4`:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;learning rate of the critic
+
+`WEIGHT_DECAY = 0`:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;L2 weight decay
+
+`NOISE_SD = 0.10`:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;noise scale
+
+- Define Class Actor and Critic
+- Define Class OuNoise and Replaybuffer
+- Define a DDPG Agent
+- train the Net and save the model
+
+### Result
+- save the model as checkpoint.pth
+- Environment solved in 183 episodes!	Average Score: 30.02

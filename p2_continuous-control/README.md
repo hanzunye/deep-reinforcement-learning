@@ -1,7 +1,7 @@
 [//]: # (Image References)
 
 [image1]: https://user-images.githubusercontent.com/10624937/43851024-320ba930-9aff-11e8-8493-ee547c6af349.gif "Trained Agent"
-[image2]: https://user-images.githubusercontent.com/10624937/43851646-d899bf20-9b00-11e8-858c-29b5c2c94ccc.png "Crawler"
+[image2]: https://github.com/hanzunye/deep-reinforcement-learning/blob/master/p2_continuous-control/plot_result.png "result"
 
 
 # Project 2: Continuous Control
@@ -60,3 +60,4 @@ The task is episodic, and in order to solve the environment,  your agent must ge
 ### Result
 - save the model as checkpoint.pth
 - Environment solved in 183 episodes!	Average Score: 30.02
+![result][image2]

@@ -32,6 +32,12 @@ Note that your project submission need only solve one of the two versions of the
 
 The task is episodic, and in order to solve the environment,  your agent must get an average score of +30 over 100 consecutive episodes.
 
+### How to run the project
+
+This project was done at udacity's workspace, all my code is in the ipynb file.
+
+Run all blocks of code in sequence.
+
 ### Algorithm: DDPG
 
 - Hyperparameter
